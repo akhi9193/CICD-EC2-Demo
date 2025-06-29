@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "nothing to install for this simple html app"
+
+
+  build:
+    commands:
+      - echo "packging application files..."
+      - zip -r app.zip .
+
+artifacts:
+  files:
+    - app.zip
