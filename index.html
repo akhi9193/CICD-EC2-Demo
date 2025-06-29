@@ -1,32 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>CICD EC2 Demo - Success!</title>
+    <meta charset="UTF-8">
+    <title>🚀 CI/CD Pipeline Deployment - EC2 Demo</title>
     <style>
         body {
-            background-color: #f0f8ff;
-            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
-            margin-top: 50px;
+            padding-top: 60px;
+            margin: 0;
         }
         h1 {
-            color: #2c3e50;
+            font-size: 50px;
+            margin-bottom: 10px;
         }
         p {
-            color: #34495e;
-            font-size: 18px;
+            font-size: 20px;
+            margin: 10px auto;
+            width: 70%;
         }
-        .success {
-            color: green;
+        .success-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 30px auto;
+            width: 60%;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+        .next-step {
             font-weight: bold;
-            font-size: 24px;
+            color: #f9ff00;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 16px;
+            color: #dcdcdc;
         }
     </style>
 </head>
 <body>
-    <h1>🚀 CI/CD Deployment Successful!</h1>
-    <p>Welcome to the new version of your CICD-EC2-Demo project.</p>
-    <p class="success">Deployed using AWS CodePipeline + CodeBuild + EC2 ✅</p>
-    <p>Next Step: Full automation with CodeDeploy! 🔥</p>
+    <h1>✅ CI/CD Deployment Successful!</h1>
+    
+    <div class="success-box">
+        <p>Congratulations! Your latest code changes have been deployed to this EC2 instance via AWS CodePipeline + CodeBuild. 🎉</p>
+        <p>This is your demo web page for the project: <strong>CICD-EC2-Demo</strong>.</p>
+        <p class="next-step">Next Step: Full Automation using AWS CodeDeploy 🚀</p>
+    </div>
+
+    <footer>
+        Built with ❤️ by Aakash Chauhan | Powered by AWS Cloud ☁️
+    </footer>
 </body>
 </html>
